@@ -1310,6 +1310,14 @@
     ember-cli-version-checker "^5.1.2"
     semver "^7.3.5"
 
+"@embroider/addon-shim@^1.5.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.6.0.tgz#d2d6d1d820605a48273a123a9adb49e163c8de1c"
+  integrity sha512-wHXsBsDsKxF6Ftnh67SBzV0OvwCBCBlgN5IVm661ByEdDacwWzYywFpVNcNJpCUttEJPMrqB5MJK7xf/xEqihg==
+  dependencies:
+    "@embroider/shared-internals" "^1.6.0"
+    semver "^7.3.5"
+
 "@embroider/core@0.29.0":
   version "0.29.0"
   resolved "https://registry.yarnpkg.com/@embroider/core/-/core-0.29.0.tgz#51421fbb2bcee607dc6e162400e3502a121230d2"
@@ -1479,7 +1487,7 @@
     semver "^7.3.5"
     typescript-memoize "^1.0.1"
 
-"@embroider/shared-internals@1.6.0", "@embroider/shared-internals@^1.0.0":
+"@embroider/shared-internals@1.6.0", "@embroider/shared-internals@^1.0.0", "@embroider/shared-internals@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.6.0.tgz#35ade2ce1202e529107bf6d1fae4ca753f6ebe5a"
   integrity sha512-es7+pV2S9+tgX5T4losppheXfa+xWtKD6x0gq7mxqA4DIdE14mORNeSWM8/Fu9f/t0tJnPqttddbgnDYw+SvrA==
@@ -6848,12 +6856,12 @@ ember-could-get-used-to-this@1.0.1:
     ember-cli-babel "^7.22.1"
     ember-cli-htmlbars "^4.2.0"
 
-ember-css-transitions@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-css-transitions/-/ember-css-transitions-3.1.0.tgz#8003c2efc6c6850c1f700bc13cfac97e606e9a52"
-  integrity sha512-4mbcjOZ5gWLpd60ccWWYe3zgx7IMHb+EH+asbI7MhRMrExeZdt16va4GlhB9o4zXBMO86JW5PX+zAi/at3eW/Q==
+ember-css-transitions@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ember-css-transitions/-/ember-css-transitions-4.0.0.tgz#6656b87ee98053bd39009fe9fe64f673f9d447b5"
+  integrity sha512-GYMhYhfbJDB5dQEb7tuFI9r4EQNwlQAYwv88breAomrLZB1F3EhwVcWH+PRHBnDbxcMDGl5OIIoSWBpNrUxnRg==
   dependencies:
-    ember-cli-babel "^7.26.11"
+    "@embroider/addon-shim" "^1.5.0"
     ember-modifier "^2.1.2 || ^3.1.0"
 
 ember-data@3.24.0:
